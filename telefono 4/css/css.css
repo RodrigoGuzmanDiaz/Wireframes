@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px; 
+}
+section{
+  
+    margin: auto;
+    
+}
+.todo{
+    margin-top: 8.5em;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.todo div{
+    margin: 30px; 
+    border-radius: 55px;
+    width: 31rem;
+    height: 30rem;
+    
+}
+.cuadro{
+    background-color: #5DCEA3;
+}
+.cuadro1{
+    background-color: #001737;
+}
+.div_linea{
+    margin-top: 15px;
+    height: 10px;
+    background-color: black;
+}
+.circulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div_circulo{
+    font-size: 10px;
+    
+    width: 13rem;
+    height: 13rem;
+    margin-top: 39px;
+    border-radius: 50%;
+    background: #001935;
+    
+}
